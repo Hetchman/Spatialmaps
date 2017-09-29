@@ -1,0 +1,42 @@
+{% extends "spatialmaps/base.html" %}
+{% load staticfiles %}
+{% block content %}
+
+ <div class="container">
+ <!--start: Navigation-->	
+			{% include 'spatialmaps/navbar.html' %}
+			<!--end: Navigation-->
+			<div class="breadcrumb">
+		<h2>REAL ESTATE &amp; PROPERTY</h2><br /> </div>
+<div class="container">
+			<div class="col-md-10 col-md-offset-1" >
+				<img src="{% static 'images/real_estate.png' %}" alt="" class="img-responsive" />	
+				<p><br/>
+				Real estate industry has used locational information for several years providing propety profesonals,real estate agents,marketers,Morgage institutions,insurance et.c with key infomation that support decision making in real estate mapping and data visualization.
+				</p>
+				<p>
+				At Spatialmaps we develop platforms that integrate landbase data for property search,marketing and property management.
+				</p>
+				<p>
+				Geogphical information related data analysis tools allows;	
+				</p>
+				<li>Property neighbourhood mapping</li>
+				<li>Propety geolocation and search</li>
+				<li>Integrated data analysis through combination of various data layers e.g. demographic data,income levels,crime statistics,property sales,land values e.t.c</li>
+				<li>Property market potential analysis.</li>
+				<p>
+				We offer products and solutions that leverage real estate industry actors with accuarate spatial information for property development,marketing and management empwering growth in the industry.
+				</p>
+				<p>Some of our real estate solution comprise;</p>
+				<li>Property asessments maps.</li>
+				<li>Valuation and property tax maps</li>
+				<li>Real estate management platforms.</li>
+				<li>Right-of-way mapping</li>
+				<li>Property makerting platforms</li>
+				<li>Web GIS real estate informatiom platform for property search and marketing</li>
+				<li>Mobile real property data collection</li>
+				<p><br/><a href="{% url 'contact' %}">Contact us</a> for further inquiries on specific products.</p>
+			</div>
+</div>
+</div>
+{% endblock %}

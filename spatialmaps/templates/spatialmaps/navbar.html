@@ -1,0 +1,55 @@
+<div class="navbar navbar-inverse">
+          <div class="navbar-inner">
+              <div class="container">
+                  <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </a>
+                  <div class="nav-collapse collapse">
+                    <ul class="nav">
+                        <li class="active"><a href="{% url 'home' %}">Home</a></li>
+                <li class="dropdown">
+                  <a href="{% url 'gis_services' %}" class="dropdown-toggle" data-toggle="dropdown">Services <b class="caret"></b></a>
+                          <ul class="dropdown-menu">
+                              <li><a href="{% url 'gis_services' %}">GIS Services</a></li>
+                              <li><a href="{% url 'remote_sensing' %}">Remote Sensing</a></li>
+                              <li><a href="{% url 'surveying_mapping' %}">Survey and Mapping</a></li>
+                              <li><a href="{% url 'technical_training' %}">Technical Training</a></li>
+                          </ul>
+                </li>
+                <li><a href="{% url 'products' %}">Products</a></li>
+                <li class="dropdown">
+                  <a href="{% url 'industries' %}" class="dropdown-toggle" data-toggle="dropdown">Industries <b class="caret"></b></a>
+                          <ul class="dropdown-menu">
+                              <li><a href="{% url 'agriculture_forestry' %}"> Agriculture &amp; Forestry</a></li>
+                              <li><a href="{% url 'land_admin_and_management' %}">Land Administration &amp; Management</a></li>
+                              <li><a href="{% url 'marketing_and_advertisement' %}"> Marketing &amp; Advertisement </a></li>
+                              <li><a href="{% url 'national_regional_governance' %}"> National &amp; Regional Governance </a></li>
+                              <li><a href="{% url 'natural_resources' %}"> Natural Resources </a></li>
+                              <li><a href="{% url 'real_estate_property' %}"> Real Estate &amp; Property </a></li>
+                              <li><a href="{% url 'security_disaster_management' %}"> Security &amp; Disaster Management </a></li>
+                              <li><a href="{% url 'urban_rural_development' %}"> Urban &amp; Rural Development </a></li>
+                              <li><a href="{% url 'water_resources' %}"> Water Resources </a></li>
+                          </ul>
+                </li>
+                <li class="dropdown">
+                          <a href="{% url 'blog' %}" class="dropdown-toggle" data-toggle="dropdown">News <b class="caret"></b></a>
+                          <ul class="dropdown-menu">
+                              <li><a href="{% url 'blog' %}"> Blog </a></li>
+                              <li><a href="{% url 'events' %}"> Events </a></li>
+                          </ul>
+                        </li>
+                <li class="dropdown">
+                          <a href="{% url 'about_us' %}" class="dropdown-toggle" data-toggle="dropdown">About Us <b class="caret"></b></a>
+                          <ul class="dropdown-menu">
+                              <li><a href="{% url 'careers' %}">Careers</a></li>
+                              <li><a href="{% url 'partners' %}">Partners</a></li>
+                          </ul>
+                        </li>
+                <li><a href="{% url 'contact' %}">Contact</a></li>        
+                    </ul>
+                  </div>
+              </div>
+            </div>
+        </div>

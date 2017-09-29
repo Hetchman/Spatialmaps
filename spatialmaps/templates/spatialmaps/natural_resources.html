@@ -1,0 +1,33 @@
+{% extends "spatialmaps/base.html" %}
+{% load staticfiles %}
+{% block content %}
+
+ <div class="container">
+ <!--start: Navigation-->	
+			{% include 'spatialmaps/navbar.html' %}
+			<!--end: Navigation-->
+			<div class="breadcrumb">
+		<h2>NATIONAL &amp; REGIONAL GOVERNANCE</h2><br /> </div>
+<div class="container">
+			<div class="col-md-10 col-md-offset-1" >
+				<img src="{% static 'images/natural_res.png' %}" alt="" class="img-responsive" />	
+				<p><br/>
+				We provide GIS solutions tailored at mapping, inventory and analysis of land and water resources .Our GIS solutions empower natural resources managers, conservationists, biologist, and botanists with tools for integration of various natural resources datasets into common analysis and visualization platform.
+				</p>
+				<p>
+				Key areas of consultancy
+				</p>
+				<p>
+				<li>Biodiversity assessments and management systems.</li>
+				<li>Habitat characterization and mapping</li>
+				<li>Watershed data analysis and management systems.</li>
+				<li>Forest resources inventory.</li>
+				<li>Natural resources Decision Support Systems (DSS)</li>
+				<li>Partcipatory GIS based natural rsources management</li>
+				</p>
+				<p>We also provide frameworks data and thematic maps for several applications in natural resources.</p>
+				<p><br/><a href="{% url 'contact' %}">Contact us</a> for further inquiries on specific products.</p>
+			</div>
+</div>
+</div>
+{% endblock %}

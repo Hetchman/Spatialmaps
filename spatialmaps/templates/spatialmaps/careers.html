@@ -1,0 +1,24 @@
+{% extends "spatialmaps/base.html" %}
+{% load staticfiles %}
+{% block content %}
+
+ <div class="container">
+ <!--start: Navigation-->	
+			{% include 'spatialmaps/navbar.html' %}
+			<!--end: Navigation-->
+			<div class="breadcrumb">
+		<h2>CAREERS</h2><br /> </div>
+<div class="container">
+			<div class="col-md-10 col-md-offset-1" >
+				
+				<p><br/>
+				Spatialmaps is a private geospatial industry consulting firm with operations in the entire Africa region. We continuously seek to work with innovators who have a passion for technology advancement in geospatial industry, software development and Information technology.
+				</p>
+				<p><br/>
+				Current opening
+				</p>
+				<p><br/><a href="{% url 'contact' %}">Contact us</a> for further inquiries.</p>
+			</div>
+</div>
+</div>
+{% endblock %}

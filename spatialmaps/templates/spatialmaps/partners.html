@@ -1,0 +1,21 @@
+{% extends "spatialmaps/base.html" %}
+{% load staticfiles %}
+{% block content %}
+
+ <div class="container">
+ <!--start: Navigation-->	
+			{% include 'spatialmaps/navbar.html' %}
+			<!--end: Navigation-->
+			<div class="breadcrumb">
+		<h2>PARTNERS</h2><br /> </div>
+<div class="container">
+			<div class="col-md-10 col-md-offset-1" >
+				
+				<p><br/>
+				Spatialmaps Consulting recognizes the benefits of strategic partnership in developing solutions that serves the wide customer needs. We continuously partner with industry players, research organisations, national and regional governments, institutions, clients in developing products that support economic growth within various sectors of the economy. 
+				</p>
+				<p><br/><a href="{% url 'contact' %}">Contact us</a> for further discussion on possible partnerships..</p>
+			</div>
+</div>
+</div>
+{% endblock %}

@@ -1,0 +1,41 @@
+{% extends "spatialmaps/base.html" %}
+{% load staticfiles %}
+{% block content %}
+
+ <div class="container">
+ <!--start: Navigation-->	
+			{% include 'spatialmaps/navbar.html' %}
+			<!--end: Navigation-->
+			<div class="breadcrumb">
+		<h2>WATER RESOURCES</h2><br /> </div>
+<div class="container">
+			<div class="col-md-10 col-md-offset-1" >
+				<img src="{% static 'images/wra.png' %}" alt="" class="img-responsive" />	
+				<p><br/>
+				GIS technology has become indispensible in water resources industry supporting various activities e.g. capture, management and analysis of data.
+				</p>
+				<p>
+				At Spatialmaps we pride in offering robust GIS solutions to players in this sector covering all aspects of water asset data capture, water facilities inventory, management,water resource mdeling, analysis and platforms that enhance decisions making on water resources development and regulation.
+				</p>
+				<img src="{% static 'images/wrb.png' %}" alt="" class="img-responsive" />
+				<p>Our services support the following water sector activities;</p>
+				<li>Water infrastructure and asset inventory.</li>
+				<li>Water resources development</li>
+				<li>Waster infrastructure planning</li>
+				<li>Water user permitting and compliance</li>
+				<li>Water revenue collection and administration</li>
+				<p>
+				We provide specialized Water and waste water GIS services include;
+				</p>
+				<li>Water utility management Information systems</li>
+				<li>Mobile GIS data solutions for water utility inspection/ maintenance</li>
+				<li>Water development and permit management systems</li>
+				<li>Catchment modeling and basin management systems</li>
+				<li>Urban water enterprise GIS solutions</li>
+				<li>Capital improvement project tracking</li>
+				<li>Solid waste collection management systems</li>
+				<p><br/><a href="{% url 'contact' %}">Contact us</a> for further inquiries on specific products.</p>
+			</div>
+</div>
+</div>
+{% endblock %}

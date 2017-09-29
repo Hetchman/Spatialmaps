@@ -1,0 +1,31 @@
+{% extends "spatialmaps/base.html" %}
+{% load staticfiles %}
+{% block content %}
+
+ <div class="container">
+ <!--start: Navigation-->	
+			{% include 'spatialmaps/navbar.html' %}
+			<!--end: Navigation-->
+			<div class="breadcrumb">
+		<h2>LAND ADMINISTRATION &amp; MANAGEMENT</h2><br /> </div>
+<div class="container">
+			<div class="col-md-10 col-md-offset-1" >
+				<img src="{% static 'images/landadmin.png' %}" alt="" class="img-responsive" />	
+				<p><br/>
+				Spatialmaps offers geospatial solutions and services that support various activities related to land administration and management. Our focus is to provide simple but effective geo-enabled solutions that consolidate the workflows linking administration and management.
+				</p>
+				<p>
+				We provide tools and technologies that empower several land administration and management activities including;
+				</p>
+				<li>Land records inventory and registry</li>
+				<li>Land information systems management</li>
+				<li>Integrated land and asset management</li>
+				<li>Land property tax mapping administration</li>
+				<li>Site acquisitions and lease management</li>
+				<li>Property rights registration and records management</li>
+				<p>Our services enable you to efficiently and effectively gather process, visualize and manage land information and records</p>
+				<p><br/><a href="{% url 'contact' %}">Contact us</a> for further inquiries on specific products.</p>
+			</div>
+</div>
+</div>
+{% endblock %}

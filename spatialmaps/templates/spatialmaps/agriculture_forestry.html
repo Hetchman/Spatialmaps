@@ -1,0 +1,44 @@
+{% extends "spatialmaps/base.html" %}
+{% load staticfiles %}
+{% block content %}
+
+ <div class="container">
+ <!--start: Navigation-->	
+			{% include 'spatialmaps/navbar.html' %}
+			<!--end: Navigation-->
+			<div class="breadcrumb">
+		<h2>AGRICULTURE &amp; FORESTRY</h2><br /> </div>
+<div class="container">
+			<div class="col-md-10 col-md-offset-1" >
+				<img src="{% static 'images/agriculture.png' %}" alt="" class="img-responsive" />	
+				<p><strong>
+				Spatialmaps offers geospatial consulting services that empower agricultural industry activities ranging from agricultural resources planning, farm preparation (tiling), intelligent crop plantation, harvesting and marketing of agricultural products.
+				</strong>
+				</p>
+				<p>
+				Our geospatial products, tools applications help in management of agricultural resources, predict yield and help farmers in sustainable agricultural practices.We focus on the development of market driven solutions that promote informed agricultural business process planning and management.
+				</p>
+				<p>
+				Geospatial technologies allow integration of numerous agricultural datasets for map visualization and focused analysis in supporting decision making in agricultural business functions. Farmers are able to combine several datasets on crops growth helping them make timely and accurate decisions that improves agricultural production. Such key decision includes crop soil types, soil moisture content, levels of weeds, crop fertilizer requirements	
+				</p>
+				<p>
+				GIS technology is crucial in helping farmers improve their produce supply value chain.	
+				</p>
+				<p>
+				We are experts in acquisition, processing and analysis geospatial data focused on agricultural industry.
+				</p>
+				<p>
+				Our consultancy services include;	
+				</p>
+				<li>Development of crop fields base maps</li>
+				<li>Crop yield estimations from satellite methods</li>
+				<li>Soil mapping analysis and fertility modeling</li>
+				<li>Irrigated landscape mapping</li>
+				<li>Development of agro-spatial databases and information systems integration.</li>
+				<li>Desktop and Web based data management and sharing platforms.</li>
+				<li>Development field data collection applications(agricultural produce supply chain geo-solution)</li>
+				<p><br/><a href="{% url 'contact' %}">Contact us</a> for further inquiries on specific products.</p>
+			</div>
+</div>
+</div>
+{% endblock %}				

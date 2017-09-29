@@ -1,0 +1,40 @@
+{% extends "spatialmaps/base.html" %}
+{% load staticfiles %}
+{% block content %}
+
+ <div class="container">
+ <!--start: Navigation-->	
+			{% include 'spatialmaps/navbar.html' %}
+			<!--end: Navigation-->
+			<div class="breadcrumb">
+		<h2>MARKETING &amp; ADVERTISEMENT</h2><br /> </div>
+<div class="container">
+			<div class="col-md-10 col-md-offset-1" >
+				<img src="{% static 'images/marketing.jpeg' %}" alt="" class="img-responsive" />	
+				<p><br/>
+				Geo-marketing involves the integration of locational information and marketing related data in providing decision making tools in different areas of marketing. Many business and retail outlets often need location information/data which is key in analysis market opportunities and potential across various regions.
+				</p>
+				<p>
+				At Spatialmaps we help businesses and marketing organization access geo-marketing information which remains key in informing many business choices and supporting product sales and marketing decisions.
+				</p>
+				<p>
+				Our services supports; marketing analysis, site selection, facility management, product distribution and delivery which have strong geographical relationships.	
+				</p>
+				<p>
+				Spatialmaps offers the following key services;	
+				</p>
+				<li>Custom mapping tools for business intelligence</li>
+				<li>Location data processing for customer potential analysis.</li>
+				<li>Business site modeling and selection.</li>
+				<li>Billboard information systems</li>
+				<li>Business territorial and catchment profiling and demographics.</li>
+				<li>Market driven spatial databases.</li>
+				<li>Mapping of store loction and sales point</li>
+				<li>Area of Interest (AOI) maps</li>
+				<li>Population ad crowding mapping for marketing intelligence and planning</li>
+				<p>GIS can help optimize market analysis activities through creation of patterns centered on spatial distribution, which help you decide where to focus efforts. Seeing data combined visually on a map makes the decision-making process much easier, and helps in communicating sales efforts to others within your organization.</p>
+				<p><br/><a href="{% url 'contact' %}">Contact us</a> for further inquiries on specific products.</p>
+			</div>
+</div>
+</div>
+{% endblock %}

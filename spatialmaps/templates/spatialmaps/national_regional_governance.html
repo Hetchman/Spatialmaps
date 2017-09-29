@@ -1,0 +1,37 @@
+{% extends "spatialmaps/base.html" %}
+{% load staticfiles %}
+{% block content %}
+
+ <div class="container">
+ <!--start: Navigation-->	
+			{% include 'spatialmaps/navbar.html' %}
+			<!--end: Navigation-->
+			<div class="breadcrumb">
+		<h2>NATIONAL &amp; REGIONAL GOVERNANCE</h2><br /> </div>
+<div class="container">
+			<div class="col-md-10 col-md-offset-1" >
+				<img src="{% static 'images/national.png' %}" alt="" class="img-responsive" />	
+				<p><br/>
+				Geospatial technologies are gaining popularity in management of national and regional governments in supporting decision on key areas of governance, citizens-to-government interactions, elections planning and management, revenue collection and enhancement ,national population census.
+				</p>
+				<p>
+				Our GIS services include;
+				</p>
+				<li>GIS property tax collection systems</li>
+				<li>Jurisdictional spatial data collection and analysis</li>
+				<li>County resources mapping and assets inventory</li>
+				<li>Integrated Spatial data infrastructures</li>
+				<li>GIS integration in e-government systems</li>
+				<li>GIS solutions for national security and intelligence</li>
+				<li>GIS integration in infrastructure planning and management</li>
+				<li>eGIS solutions for G2C and G2G</li>
+				<li>Spatial data for teritorial integrity</li>
+				<li>GIS application in eletrion planning ,management and monitoring</li>
+				<li>GIS application in Population data gathering and disemination.</li>
+				<li>Crowd-sourced geosolution for data collection</li>
+				<p>We deliver solutions through enterprise GIS, web based GIS and mobile GIS platforms allowing several users access to spatial data for fast decision support.</p>
+				<p><br/><a href="{% url 'contact' %}">Contact us</a> for further inquiries on specific products.</p>
+			</div>
+</div>
+</div>
+{% endblock %}

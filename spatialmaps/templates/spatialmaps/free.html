@@ -1,0 +1,469 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<!-- start: Meta -->
+	<meta charset="utf-8">
+	<title>SpatialMaps Consult</title> 
+	<meta name="description" content="FreeME:Bootstrap Theme"/>
+	<meta name="keywords" content="Template, Theme, web, html5, css3" />
+	<meta name="author" content="Łukasz Holeczek from creativeLabs"/>
+	<!-- end: Meta -->
+	
+	<!-- start: Mobile Specific -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- end: Mobile Specific -->
+	
+	<!-- start: Facebook Open Graph -->
+	<meta property="og:title" content=""/>
+	<meta property="og:description" content=""/>
+	<meta property="og:type" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:image" content=""/>
+	<!-- end: Facebook Open Graph -->
+
+    <!-- start: CSS -->
+    <link href="{% static 'css/bootstrap.css' %}" rel="stylesheet">
+    <link href="{% static 'css/bootstrap-responsive.css' %}" rel="stylesheet">
+	<link href="{% static 'css/style.css' %}" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Serif">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Boogaloo">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Economica:700,400italic">
+	<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet"> 
+	
+	<!-- end: CSS -->
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+	
+	<!--start: Wrapper -->
+	<div id="wrapper">
+		
+		<!--start: Container -->
+		<div class="container">
+		
+		
+			<!--start: Header -->
+			<header>
+			
+				<!--start: Row -->
+				<div class="row">
+					
+					<!--start: Logo -->
+					<div class="logo span4">
+						<a class="brand" href="#"><img src="{% static 'images/logo.jpg' %}"></a>
+					</div>
+					<!--end: Logo -->
+					
+					<!--start: Social Links -->
+					<div class="span8">
+						<div id="social-links">
+							<ul class="social-small-grid">
+								<li>
+									<div class="social-small-item">				
+										<div class="social-small-info-wrap">
+											<div class="social-small-info">
+												<div class="social-small-info-front social-small-twitter">
+													<a href="http://twitter.com"></a>
+												</div>
+												<div class="social-small-info-back social-small-twitter-hover">
+													<a href="http://twitter.com"></a>
+												</div>	
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="social-small-item">				
+										<div class="social-small-info-wrap">
+											<div class="social-small-info">
+												<div class="social-small-info-front social-small-facebook">
+													<a href="http://facebook.com"></a>
+												</div>
+												<div class="social-small-info-back social-small-facebook-hover">
+													<a href="http://facebook.com"></a>
+												</div>	
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!--end: Social Links -->
+					
+				</div>
+				<!--end: Row -->
+						
+			</header>
+			<!--end: Header-->
+			
+			
+			
+		</div>
+		<!--end: Container-->
+				
+		<!--start: Container -->
+    	<div class="container">
+	
+			<!-- start: Flexslider -->
+			<div class="slider">
+			
+				<div class="flexslider">
+					<ul class="slides">
+
+						<li>
+							<img src="{% static 'images/gisc1.jpg' %}" alt="" />
+							<div class="slide-caption n hidden-phone">
+								<h3>Infrastructure Mapping</h3>
+								<p>
+									We offer mapping services that support infrastructure planning and development
+								</p>
+							</div>
+						</li>
+
+						<li>
+							<img src="{% static 'images/gis1a.jpg' %}" alt="" />
+							<div class="slide-caption hidden-phone">
+								<h3>GIS Services</h3>
+								<p>
+									We provide professional GIS consultancy services. Contact us for technology-driven geospatial industry solutions and versatile products.
+								</p>
+							</div>
+						</li>
+
+						<li>
+							<img src="{% static 'images/survey1a.jpg' %}" alt="" />
+							<div class="slide-caption hidden-phone">
+								<h3>Surveying &amp; Mapping</h3>
+								<p>
+									Our Survey services offer accurate and timely data for development planning and decision support.
+								</p>
+							</div>
+						</li>
+						<li>
+							<img src="{% static 'images/remote.jpg' %}" alt="" />
+							<div class="slide-caption hidden-phone">
+								<h3>Remote Sensing</h3>
+								<p>
+									We handle all remotely sensed imagery, providing customers with various outputs that support resources mapping, inventory and management needs.
+								</p>
+							</div>
+						</li>
+
+					</ul>
+				</div>
+			
+			</div>
+			<!-- end: Flexslider -->
+			<!--start: Navigation-->	
+			{% include 'spatialmaps/navbar.html' %}
+			<!--end: Navigation-->
+
+      		<!-- start: Hero Unit - Main hero unit for a primary marketing message or call to action -->
+      		<div class="container">
+        		<p>
+        		<h2>SpatialMaps Consult</h2>
+					Spatialmaps Consulting offers professional geospatial consultancy services covering Geographical Information Systems (GIS), Surveying, GPS technology, remote sensing, digital maping and technical training for organisations geospatial technology. Our project experiences and background covers all areas of geospatial technology .We have professional qualifications in all aspects of geospatial engineering including surveying ,GIS,GPS,remote sensing, aerial/Lidar mapping, geospatial application design , development and programming. We can efficiently design and develop geospatial solutions that serve any industry with locational data needs. We have worked extensively in many projects covering our GIS, technical training, surveying, and remote sensing within Kenya, Somalia, Southern Sudan, Tanzania, and Uganda.
+				</p>
+        		<!-- <p><a class="btn btn-success btn-large">Learn more &raquo;</a></p> -->
+      		</div>
+			<!-- end: Hero Unit -->
+
+      		<!-- start: Row -->
+      		<hr>
+			
+			<!-- start: Row -->
+			<div class="container">
+				
+				<!-- start: Icon Boxes -->
+				<div class="row">
+
+					<!-- start: Icon Box Start -->
+					<div class="span6">
+						<!-- <div class="icons-box-vert"> -->
+							<a href="surveying_mapping.html"><img src="{% static 'images/gnss1.JPG' %}"></a>
+							<!-- <div class="icons-box-vert-info"> -->
+								<a href="{% url 'surveying_mapping' %}"><h3>Surveying & Mapping</h3></a>
+								<p>We provide surveying services that range from simple small scale site surveys to modern high-tech surveying services. Our services range from reconnaissance survey activities to complex and large scale survey projects with high accuracy requirements.</p>
+							<!-- </div> -->
+							<div class="clear"></div>
+						<!-- </div> -->
+					</div>
+					<!-- end: Icon Box-->
+
+					<!-- start: Icon Box Start -->
+					<div class="span6">
+						<!-- <div class="icons-box-vert"> -->
+							<a href="{% url 'gis_services' %}"><img src="{% static 'images/gps2.jpg' %}"></a>
+							<!-- <div class="icons-box-vert-info"> -->
+								<a href="gis_services.html"><h3>GIS Services</h3></a>
+								<p>Our projects range from field spatial data collection, spatial database systems design, capacity building in geospatial industry products and various data analysis and mapping projects to in-house data processing, analysis and customer support.</p>
+							<!-- </div> -->
+							<div class="clear"></div>
+						<!-- </div> -->
+					</div>
+					<!-- end: Icon Box -->
+
+					
+				
+
+				</div>
+				<div class="row">
+				<!-- start: Icon Box Start -->
+					<div class="span6">
+						<!-- <div class="icons-box-vert"> -->
+							<a href="{% url 'remote_sensing' %}"><img src="{% static 'images/rs12.jpg' %}"></a>
+							<!-- <div class="icons-box-vert-info"> -->
+								<a href="remote_sensing.html"><h3>Remote Sensing</h3></a>
+								<p>We offer services focused to sourcing, registration, processing and analysis of satellite remote sensing imageries for various.</p>
+							<!-- </div> -->
+							<div class="clear"></div>
+						<!-- </div> -->
+					</div>
+					<!-- end: Icon Box -->
+
+					<!-- start: Icon Box Start -->
+					<div class="span6">
+						<!-- <div class="icons-box-vert"> -->
+							<a href="{% url 'technical_training' %}"><img src="{% static 'images/technical2.jpg' %}"></a>
+							<!-- <div class="icons-box-vert-info"> -->
+								<a href="technical_training.html"><h3>Technical Training</h3></a>
+								<p>The implementation of successful GIS systems requires training focused on key aspects of GIS using both commercial and open source GIS technology we provide customers and organizations with training in key areas of spatial data management and analysis.</p>
+							<!-- </div> -->
+							<div class="clear"></div>
+						<!-- </div> -->
+					</div>
+					<!-- end: Icon Box -->
+					
+				</div>
+				<!-- end: Icon Boxes -->
+				<div class="clear"></div>
+			</div>
+			<!-- end: Row -->
+      		
+			<!-- end: Row -->
+      		
+			<hr>
+		
+			<!-- start Clients List -->	
+			<div class="clients-carousel">
+		
+				<ul class="slides clients">
+					<li><img src="{% static 'images/partners/8p.PNG' %}" alt=""/></li>
+					<li><img src="{% static 'images/partners/adp.PNG' %}" alt=""/></li>	
+					<li><img src="{% static 'images/partners/batch.PNG' %}" alt=""/></li>
+					<li><img src="{% static 'images/partners/eec.PNG' %}" alt=""/></li>
+					<li><img src="{% static 'images/partners/iom.jpg' %}" alt=""/></li>
+					<li><img src="{% static 'images/partners/mdl.jpg' %}" alt=""/></li>
+					<li><img src="{% static 'images/partners/pdc.PNG' %}" alt=""/></li>
+					<li><img src="{% static 'images/partners/rea-logo.jpg' %}" alt=""/></li>
+					<li><img src="{% static 'images/partners/unops.jpg' %}" alt=""/></li>
+					<li><img src="{% static 'images/partners/vision.PNG' %}" alt=""/></li>	
+					<li><img src="{% static 'images/partners/whh.PNG' %}" alt=""/></li>	
+				</ul>
+		
+			</div>
+			<!-- end Clients List -->
+		
+			
+			
+			<hr>
+			
+		</div>
+		<!--end: Container-->
+				
+		<!--start: Container -->
+    	<div class="container">		
+
+      		<!-- start: Footer Menu -->
+			<div id="footer-menu" class="hidden-tablet hidden-phone">
+
+				<!-- start: Container -->
+				<div class="container">
+				
+					<!-- start: Row -->
+					<div class="row">
+
+						<!-- start: Footer Menu Logo -->
+						<div class="span1">
+							<div id="footer-menu-logo">
+								<a href="#"><img src="img/logo-footer-menu.png" alt="logo" /></a>
+							</div>
+						</div>
+						<!-- end: Footer Menu Logo -->
+
+						<!-- start: Footer Menu Links-->
+						<div class="span10">
+						
+							<div id="footer-menu-links">
+
+								<ul id="footer-nav">
+
+									<li><a href="index.html">Home</a></li>
+
+									<li><a href="about.html">About</a></li>
+
+									<li><a href="services.html">Services</a></li>
+
+									<li><a href="products.html">Products</a></li>
+								
+									<li><a href="contact.html">Contact</a></li>
+
+								</ul>
+
+							</div>
+						
+						</div>
+						<!-- end: Footer Menu Links-->
+
+						<!-- start: Footer Menu Back To Top -->
+						<div class="span1">
+							
+							<div id="footer-menu-back-to-top">
+								<a href="#"></a>
+							</div>
+					
+						</div>
+						<!-- end: Footer Menu Back To Top -->
+				
+					</div>
+					<!-- end: Row -->
+				
+				</div>
+				<!-- end: Container  -->	
+
+			</div>	
+			<!-- end: Footer Menu -->
+
+			<!-- start: Footer -->
+			<div id="footer">
+			
+				<!-- start: Container -->
+				<div class="container">
+				
+					<!-- start: Row -->
+					<div class="row">
+
+						<!-- start: About -->
+						<!-- <div class="span3">
+						
+							<h3>About Us</h3>
+							<p>
+								Spatialmaps consulting Ltd was established in 2008 .and fully incooporated in Kenya as a limited liability company in 2009.The firm offers specialized services in Geographical Information System (GIS), Geo-IT, Surveying, Mapping, GPS and remote sensing and is owned and managed by professional geospatial engineers.
+							</p>
+							
+						</div> -->
+						<!-- end: About -->
+
+						<!-- start: Photo Stream -->
+					<!-- 	<div class="span3">
+						
+							<h3>Photo Stream</h3>
+							<div class="flickr-widget">
+								<script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=9&display=latest&size=s&layout=x&source=user&user=29609591@N08"></script>
+								<div class="clear"></div>
+							</div>
+						
+						</div> -->
+						<!-- end: Photo Stream -->
+
+				
+						<div class="span6">
+					
+							<!-- start: Follow Us -->
+							<h3>Follow Us!</h3>
+							<ul class="social-grid">
+								<li>
+									<div class="social-item">				
+										<div class="social-info-wrap">
+											<div class="social-info">
+												<div class="social-info-front social-twitter">
+													<a href="http://twitter.com"></a>
+												</div>
+												<div class="social-info-back social-twitter-hover">
+													<a href="http://twitter.com"></a>
+												</div>	
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="social-item">				
+										<div class="social-info-wrap">
+											<div class="social-info">
+												<div class="social-info-front social-facebook">
+													<a href="http://facebook.com"></a>
+												</div>
+												<div class="social-info-back social-facebook-hover">
+													<a href="http://facebook.com"></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+							<!-- end: Follow Us -->
+					
+							<!-- start: Newsletter -->
+							<form id="newsletter" method="POST">{% csrf_token %}
+								<h3>Newsletter</h3>
+								<p>Please leave us your email</p>
+								<!-- <label for="newsletter_input">@:</label> -->
+								<!-- <input type="text" id="newsletter_input"/> -->{{form}}
+								<input type="submit" id="newsletter_submit" value="submit">
+							</form>
+							<!-- end: Newsletter -->
+					
+						</div>
+					
+					</div>
+					<!-- end: Row -->	
+				
+				</div>
+				<!-- end: Container  -->
+
+			</div>
+			<!-- end: Footer -->
+	
+		</div>
+		<!-- end: Container  -->
+
+	</div>
+	<!-- end: Wrapper  -->
+
+
+	<!-- start: Copyright -->
+	<div id="copyright">
+	
+		<!-- start: Container -->
+		<div class="container">
+		
+				<p>
+					&copy; 2017, SpatialMaps Consult. <!-- <a href="http://bootstrapmaster.com" alt="Bootstrap Themes">Bootstrap Themes</a> Designed by BootstrapMaster in Poland <img src="img/poland.png" alt="Poland" style="margin-top:-4px"> -->
+				</p>
+	
+		</div>
+		<!-- end: Container  -->
+		
+	</div>	
+	<!-- end: Copyright -->
+
+<!-- start: Java Script -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="{% static 'js/jquery-1.8.2.js' %}"></script>
+<script src="{% static 'js/bootstrap.js' %}"></script>
+<script src="{% static 'js/flexslider.js' %}"></script>
+<script src="{% static 'js/carousel.js' %}"></script>
+<script def src="{% static 'js/custom.js' %}"></script>
+<!-- end: Java Script -->
+
+</body>
+</html>

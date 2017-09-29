@@ -1,0 +1,43 @@
+{% extends "spatialmaps/base.html" %}
+{% load staticfiles %}
+{% block content %}
+
+ <div class="container">
+ <!--start: Navigation-->	
+			{% include 'spatialmaps/navbar.html' %}
+			<!--end: Navigation-->
+			<div class="breadcrumb">
+		<h2>SECURITY &amp; DISASTER MANAGEMENT</h2><br /> </div>
+<div class="container">
+			<div class="col-md-10 col-md-offset-1" >
+				<img src="{% static 'images/secure.png' %}" alt="" class="img-responsive" />	
+				<p><br/>
+				We provide law enforcement agencies and security companies with spatial data and platforms for display and visualization of security and crime related data enhancing decision support in emergency response, crime hotspot analysis, criminal data visualization, and dispatch and policing monitoring.
+				</p>
+				<p>
+				Our solutions includes data mining application that integrates information from various key sources and stakeholders in developing patterns for inclusive policing and investigation through common crime mapping and policing GIS technology.
+				</p>
+				<p>
+				Our geospatial solutions support the following activities;	
+				</p>
+				<li>Data mining and fusion applications that integrate crime data in developing patterns/intelligence for inclusive policing and investigation.</li>
+				<li>Crime and investigative analysis</li>
+				<li>Security staff deployment and work order management</li>
+				<li>Security operations and management</li>
+				<li>Evidence gathering and analysis</li>
+				<li>Disaster mapping in recovery planning and management</li>
+				<li>Intelligence data sharing.</li>
+				<p>
+				We also provide solutions that support disaster management covering;
+				</p>
+				<li>Disaster planning and preparedness</li>
+				<li>Rapid Utilities Assessment &amp; Restoration</li>
+				<li>Data and Claims Processing for insurance</li>
+				<li>Debris mapping and removal Logistics</li>
+				<li>Post disaster Recovery planning and Rebuilding Efforts</li>
+				<p>At Spatialmaps we develop GIS applications and systems that support intelligent policing, rescue missions and disaster management and recovery.</p>
+				<p><br/><a href="{% url 'contact' %}">Contact us</a> for further inquiries on specific products.</p>
+			</div>
+</div>
+</div>
+{% endblock %}

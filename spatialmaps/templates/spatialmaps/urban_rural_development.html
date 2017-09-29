@@ -1,0 +1,35 @@
+{% extends "spatialmaps/base.html" %}
+{% load staticfiles %}
+{% block content %}
+
+ <div class="container">
+ <!--start: Navigation-->	
+			{% include 'spatialmaps/navbar.html' %}
+			<!--end: Navigation-->
+			<div class="breadcrumb">
+		<h2>URBAN &amp; RURAL DEVELOPMENT</h2><br /> </div>
+<div class="container">
+			<div class="col-md-10 col-md-offset-1" >
+				<img src="{% static 'images/urban2.png' %}" alt="" class="img-responsive" />	
+				<p><br/>
+				We provide geospatial consultancy services focused on supporting urban and rural development programs. Our solutions range from framework geospatial data, data collection applications, mapping platforms, dashboard that leverages urban and rural development activities decision making processes and support project planning, monitoring and evaluation.
+				</p>
+				<p>
+				Some of the services we provide support the following urban development sectors.
+				</p>
+				<li>Landuse mapping and urban development monitoring.</li>
+				<li>Urban/Town and rural planning</li>
+				<li>Urban design and Architecture</li>
+				<p>
+				Some of the specific services and products offered by Spatialmaps include;
+				</p>
+				<li>Development of Street addressing maps and Information systems</li>
+				<li>Development urban and town 3D models and 3D visualization</li>
+				<li>Urban infrastructure mapping and modeling</li>
+				<li>City, Urban and Towns spatial database systems</li>
+				<li>City and urban indoor GIS systems</li>
+				<p><br/><a href="{% url 'contact' %}">Contact us</a> for further inquiries on specific products.</p>
+			</div>
+</div>
+</div>
+{% endblock %}

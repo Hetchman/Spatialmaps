@@ -1,0 +1,102 @@
+{% extends "spatialmaps/base.html" %}
+{% load staticfiles %}
+
+
+{% block content%}
+ <div class="container">
+
+      <!--start: Navigation-->  
+      {% include 'spatialmaps/navbar.html' %}
+      <!--end: Navigation-->
+
+          <!-- start: Hero Unit - Main hero unit for a primary marketing message or call to action -->
+          <div class="hero-unit">
+            <p>
+            <h2>SpatialMaps Consult</h2>
+          Spatialmaps Consulting offers professional geospatial consultancy services covering Geographical Information Systems (GIS), Surveying, GPS technology, remote sensing, digital maping and technical training for organisations geospatial technology. Our project experiences and background covers all areas of geospatial technology .We have professional qualifications in all aspects of geospatial engineering including surveying ,GIS,GPS,remote sensing, aerial/Lidar mapping, geospatial application design , development and programming. We can efficiently design and develop geospatial solutions that serve any industry with locational data needs. We have worked extensively in many projects covering our GIS, technical training, surveying, and remote sensing within Kenya, Somalia, Southern Sudan, Tanzania, and Uganda.
+        </p>
+            <!-- <p><a class="btn btn-success btn-large">Learn more &raquo;</a></p> -->
+          </div>
+      <!-- end: Hero Unit -->
+
+          <!-- start: Row -->
+          <hr>
+      
+      <!-- start: Row -->
+      <div class="container">
+        
+        <!-- start: Icon Boxes -->
+        <div class="row">
+
+          <!-- start: Icon Box Start -->
+          <div class="col-md-2">
+            <!-- <div class="icons-box-vert"> -->
+              <a href="surveying_mapping.html"><img src="{% static 'images/gnss1.JPG' %}"></a>
+              <!-- <div class="icons-box-vert-info"> -->
+                <a href="surveying_mapping.html"><h3>Surveying & Mapping</h3></a>
+                <p>We provide surveying services that range from simple small scale site surveys to modern high-tech surveying services. Our services range from reconnaissance survey activities to complex and large scale survey projects with high accuracy requirements.</p>
+              <!-- </div> -->
+              <div class="clear"></div>
+            <!-- </div> -->
+          </div>
+          <!-- end: Icon Box-->
+
+          <!-- start: Icon Box Start -->
+          <div class="col-md-2">
+            <!-- <div class="icons-box-vert"> -->
+              <a href="gis_services.html"><img src="{% static 'images/gps2.jpg' %}"></a>
+              <!-- <div class="icons-box-vert-info"> -->
+                <a href="gis_services.html"><h3>GIS Services</h3></a>
+                <p>Our projects range from field spatial data collection, spatial database systems design, capacity building in geospatial industry products and various data analysis and mapping projects to in-house data processing, analysis and customer support.</p>
+              <!-- </div> -->
+              <div class="clear"></div>
+            <!-- </div> -->
+          </div>
+          <!-- end: Icon Box -->
+
+          <!-- start: Icon Box Start -->
+          <div class="col-md-2">
+            <!-- <div class="icons-box-vert"> -->
+              <a href="remote_sensing.html"><img src="{% static 'images/gnss1.JPG' %}"></a>
+              <!-- <div class="icons-box-vert-info"> -->
+                <a href="remote_sensing.html"><h3>Remote Sensing</h3></a>
+                <p>We offer services focused to sourcing, registration, processing and analysis of satellite remote sensing imageries for various.</p>
+              <!-- </div> -->
+              <div class="clear"></div>
+            <!-- </div> -->
+          </div>
+          <!-- end: Icon Box -->
+
+          <!-- start: Icon Box Start -->
+          <div class="col-md-2">
+            <!-- <div class="icons-box-vert"> -->
+              <a href="technical_training.html"><img src="{% static 'images/gnss1.JPG' %}"></a>
+              <!-- <div class="icons-box-vert-info"> -->
+                <a href="technical_training.html"><h3>Technical Training</h3></a>
+                <p>The implementation of successful GIS systems requires training focused on key aspects of GIS using both commercial and open source GIS technology we provide customers and organizations with training in key areas of spatial data management and analysis.</p>
+              <!-- </div> -->
+              <div class="clear"></div>
+            <!-- </div> -->
+          </div>
+          <!-- end: Icon Box -->
+
+        </div>
+        <!-- end: Icon Boxes -->
+        <div class="clear"></div>
+      </div>
+      <!-- end: Row -->
+          
+      <!-- end: Row -->
+          
+      <hr>
+    
+      <!-- start Clients List --> 
+      {% include 'spatialmaps/slider_partners.html' %}
+      <!-- end Clients List -->
+    
+      
+      
+      <hr>
+      
+    </div>
+  {% endblock %}

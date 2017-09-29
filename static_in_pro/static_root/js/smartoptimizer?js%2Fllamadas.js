@@ -1,0 +1,2 @@
+$(document).ready(function(){$("#listaSecciones h3").corner("7px cc:#FFFFFF");});$(window).load(function(){if($('#contenidoLeft').height()>$('#contenidoRight').height()){$('#contenidoRight').height($('#contenidoLeft').height()+20);}
+if($('#contenidoRight').height()>$('#contenidoLeft').height()){$('#contenidoLeft').height($('#contenidoRight').height()-20);}});

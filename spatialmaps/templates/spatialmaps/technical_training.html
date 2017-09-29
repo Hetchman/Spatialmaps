@@ -1,0 +1,37 @@
+{% extends "spatialmaps/base.html" %}
+{% load staticfiles %}
+{% block content %}
+
+ <div class="container">
+ <!--start: Navigation-->	
+			{% include 'spatialmaps/navbar.html' %}
+			<!--end: Navigation-->
+			<div class="breadcrumb">
+		<h2>TECHNICAL TRAINING</h2><br /> </div>
+<div class="container">
+			<div class="col-md-10 col-md-offset-1" >
+				<img src="{% static 'images/remote_page.png' %}" alt="" class="img-responsive" />	
+				<p><strong>
+				The implementation of successful GIS systems requires training focused on key aspects of GIS using both commercial and open source GIS technology we provide customers and organizations with training in key areas of spatial data management and analysis including;
+				</strong>
+				</p>
+				<ul>
+				<li>Spatial data collection and mobile GIS.</li>
+				<li>GSI Management for desktop, centralized and web based applications.</li>
+				<li>Mapping and Spatial analysis.</li>
+				<li>GIS systems customization and application development.</li>
+				</ul>
+				<p><br/>
+				Our training services; GIS training, GPS and utility inventory, RS training, Survey and mapping
+				</p>
+				<ul>
+				<li>Open Source GIS Bootcamp</li>
+				<li>GIS technology implementation</li>
+				<li>GIS application training</li>
+				<li>Spatial data management training</li>
+				</ul>
+				</div>
+				</div>			
+  </div>			
+
+{% endblock %}

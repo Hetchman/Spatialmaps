@@ -1,0 +1,41 @@
+{% extends "spatialmaps/base.html" %}
+{% load staticfiles %}
+{% block content %}
+
+ <div class="container">
+ <!--start: Navigation-->	
+			{% include 'spatialmaps/navbar.html' %}
+			<!--end: Navigation-->
+		<div class="span12">
+		<h2>GIS SERVICES</h2><br /> 
+	<table width="100%" border="0" cellpadding="5" cellspacing="0" align="center">
+
+  <tr>
+<img src="{% static 'images/gismap.png' %}" class="img-rounded" alt="Cinque Terre" width="" height="">
+<td width="50%" align="left" valign="middle">				Our projects range from field spatial data collection, spatial database systems design, capacity building in geospatial industry products and various data analysis and mapping projects to in-house data processing, analysis and customer support.
+
+We have had significant experience handling various projects offering quality and timely solutions. We have undertaken several GIS consulting projects from activities inception and conceptualization, GIS applications design, spatial data collection, spatial analysis, capacity building and deployment within Kenya, Tanzania, southern Sudan, Uganda and Somalia within the East African regions.
+
+We provide wide range of GIS services covering all phases of spatial data consumption .We have a thorough understanding of GIS mapping projects cycle ; project planning, integrated spatial data capture, data processing for ( server based, online and desktop) applications, spatial analysis and modelling.
+<p><br/>Some of the key activities within the GIS section include;<br/></p>
+<li>Analog-to-digital data conversion.</li>
+<li>Spatial data collection, processing (using GPS devices and our ergeoPad, a development of mobile data collection platforms and database access interfaces.</li>
+<li>Development of spatial databases, data mining applications and data migration.</li>
+<li>Spatial data analysis, mapping and map productions.</li>
+<li>Web based GIS applications, systems development and implementation-The GIS section develops GIS applications, systems and web portals that empower organisations with platforms that provide fast and robust decision making in their activities. We develop GIS applications   that allow seamless data integration into mobile, desktop and web based platforms to easier decision making.</li>
+<li>GIS systems implementation and life cycle support-We support all stages of GIS systems implementation to full cycle through in-house staff  training, staff-customer need analysis and  through development of  system implementation strategies.</li>
+<li>Developement and implementation of enterprise wide GIS solutions   that enables organisation have centralised spatial data managements systems, improves data sharing and security. We also implement intranet GIS for in-house GIS projects and develop Spatial data Infrastructures (SDI).</li>
+<li>GIS needs assesments for establishing existing GIS infrastructure status and help organisations in developing GIS technology and build capacities in supporting their key activities.</li>
+<li>Provision of geospatial data including vector data, DEMs, satellite imagery, topographic maps, nautical charts, and geological maps within East Africa region.</li>
+<li>GIS modelling for water resources, transportation and the environment.</li>
+<li>Development of GIS training materials, Terms of Reference and Request of Proposals (RFP)</li>
+<li>Development of Information Technology systems and rich GIS powered websites </li>
+
+</td>
+ </tr>		
+</table><br />
+
+   </div>
+  </div>
+
+{% endblock %}
