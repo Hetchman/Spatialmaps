@@ -10,8 +10,6 @@ django-libs==1.67.12
 django-newsletter-signup==0.5
 django-redis-cache==1.7.1
 djangorestframework==3.6.3
-Flask==0.12.2
-flaskr==0.0.0
 gunicorn==19.7.1
 idna==2.5
 itsdangerous==0.24
