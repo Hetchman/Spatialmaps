@@ -30,9 +30,9 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Boogaloo" !important;
+	font-family: "Economica" !important;
 	font-weight: normal;
-	color: #666;
+	color: #00518E;
 }
 
 .title {
@@ -92,7 +92,7 @@ header {
 .navbar, 
 .navbar-inner, 
 .nav {
-	background: #333 !important;
+	background: #005492 !important;
 }
 
 .navbar .nav > li > a {
@@ -126,7 +126,7 @@ header {
 .dropdown-menu .active > a,
 .dropdown-menu .active > a:hover {
   color: #ffffff;
-  background: #89c236 !important;	
+  background: #005492 !important;	
 }
 
 
@@ -915,9 +915,9 @@ a.buy:hover {
 ====================================================================== */
 #footer-menu {
 	height: 50px;
-	background: #3b3b3b;
+	background: #005492;
 	border-top: 4px solid #f6f6f6;
-	border-bottom: 2px solid #4d4d4d;
+	border-bottom: 2px solid #1f58ad;
 	margin-top: 20px;
 }
 
@@ -1010,7 +1010,7 @@ a.buy:hover {
 #footer-menu-back-to-top a:hover {background-color: #aaa;}
 
 #footer {
-	background: #444444;
+	background: #289dcc;
 	color: #757575 !important;
 	padding: 40px 0px;
 	z-index: 1;
@@ -1021,7 +1021,7 @@ a.buy:hover {
 #footer, 
 #footer p, 
 #footer a{ 
-	color: #757575 !important;
+	color: #F3F7FB !important;
 }
 
 #footer a:hover {
@@ -1033,7 +1033,7 @@ a.buy:hover {
 #footer h3 {
 	padding: 2px 0px !important;
 	margin-bottom: 10px;
-	color: #999999;
+	color: #F3F7FB;
 	border-bottom: 3px double #999999;
 }
 
