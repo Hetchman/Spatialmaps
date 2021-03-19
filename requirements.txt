@@ -9,7 +9,7 @@ django-leaflet==0.22.0
 django-libs==1.67.12
 django-newsletter-signup==0.5
 django-redis-cache==1.7.1
-djangorestframework==3.6.3
+djangorestframework==3.11.2
 gunicorn==19.7.1
 idna==2.5
 itsdangerous==0.24
